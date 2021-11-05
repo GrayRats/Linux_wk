@@ -3,9 +3,8 @@ Linux description
 
 
 NVME SSD + HMB Buffer  
-Многие NVME SSD используют ОЗУ для буфера Host Memory Buffer (HMB), 
-требую объём 0,1% от своего размера (например 2048 МБ для SSD на 2 ТБ), 
-но Windows 10 ограничивает HMB до 64 МБ, урезая производительность 
-больших SSD.
-Linux имеет по-умолчанию ограничение 128 МБ и при необходимости увеличивается до 4 ГБ, 
-обеспечивая производительность NVME HMB SSD не хуже внутребуферных
+Many NVME SSDs use RAM for the Host Memory Buffer (HMB),
+requiring a volume of 0.1% of its size (for example, 2048 MB for a 2TB SSD),
+but WINDOWS 10+ limits HMB to 64 MB, cutting down the performance of large SSDs.
+LINUX has a default limit of 128 MB and, if necessary, increases to 4 GB,
+ensuring the performance of NVME HMB SSD is not worse inside the buffer.
