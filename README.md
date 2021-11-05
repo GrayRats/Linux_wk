@@ -2,7 +2,7 @@
 Linux description 
 
 
-NVME SSD + HMB Buffer  
+NVME SSD + HMB Buffer on Linux/Windows
 Many NVME SSDs use RAM for the Host Memory Buffer (HMB),
 requiring a volume of 0.1% of its size (for example, 2048 MB for a 2TB SSD),
 but WINDOWS 10+ limits HMB to 64 MB, cutting down the performance of large SSDs.
